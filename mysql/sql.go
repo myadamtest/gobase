@@ -217,7 +217,7 @@ func (cli *Client) GetWrite() (*sql.DB, error) {
 		logkit.Error(err.Error())
 		return nil, err
 	}
-	return DB, nil
+	return db.DB, nil
 }
 
 func (cli *Client) GetRead() (*sql.DB, error) {
@@ -229,5 +229,5 @@ func (cli *Client) GetRead() (*sql.DB, error) {
 		logkit.Error(err.Error())
 		return nil, err
 	}
-	return DB, nil
+	return db.DB, nil
 }
