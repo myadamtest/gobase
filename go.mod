@@ -27,10 +27,9 @@ require (
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.etcd.io/bbolt v1.3.3 // indirect
-	golang.org/x/crypto v0.0.0-20191010185427-af544f31c8ac // indirect
-	golang.org/x/net v0.0.0-20191009170851-d66e71096ffb
+	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/net v0.1.0
 	golang.org/x/time v0.0.0-20190921001708-c4c64cad1fd0 // indirect
-	google.golang.org/appengine v1.4.0 // indirect
 	google.golang.org/genproto v0.0.0-20191009194640-548a555dbc03 // indirect
 	google.golang.org/grpc v1.24.0
 	sigs.k8s.io/yaml v1.1.0 // indirect
